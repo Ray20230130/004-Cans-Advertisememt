@@ -75,7 +75,7 @@
         drink03.style.transform = `translateX(${drinkWidth * (-1)}px)`;
         drink03.style.opacity = '1'
         drink01.style.opacity = '0'
-        circleImg.style.backgroundImage = 'url(../images/mint01-s.jpg)';
+        circleImg.style.backgroundImage = 'url(images/mint01-s.jpg)';
         text.innerHTML = innerText01();
         changeColor(1);
         timeout01(drink01, 2, bgColor[1]);
@@ -88,7 +88,7 @@
         drink03.style.transform = `translateX(${drinkWidth * (-2)}px)`;
         drink01.style.opacity = '1'
         drink02.style.opacity = '0'
-        circleImg.style.backgroundImage = 'url(../images/lemon01-s.jpg)';
+        circleImg.style.backgroundImage = 'url(images/lemon01-s.jpg)';
         text.innerHTML = innerText02();
         changeColor(2);
         timeout01(drink02, 1, bgColor[2]);
@@ -101,7 +101,7 @@
         drink03.style.transform = `translateX(${drinkWidth * (-3)}px)`;
         drink02.style.opacity = '1'
         drink03.style.opacity = '0'
-        circleImg.style.backgroundImage = 'url(../images/apple01-s.jpg)';
+        circleImg.style.backgroundImage = 'url(images/apple01-s.jpg)';
         text.innerHTML = innerText00();
         changeColor(3);
         timeout01(drink03, 0, bgColor[3]);
